@@ -269,9 +269,9 @@ const Chat = () => {
           {!lastQuestionRef.current ? (
             <Stack className={styles.chatEmptyState}>
               <img src={Azure} className={styles.chatIcon} aria-hidden="true" />
-              <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
+              <h1 className={styles.chatEmptyStateTitle}>Your HOA Document Investigator:</h1>
               <h2 className={styles.chatEmptyStateSubtitle}>
-                This chatbot is configured to answer your questions
+                This chatbot is configured to answer questions from your HOA management documents. Try asking a question like "What is the maximum number of pets allowed?" or "What is the minimum age to live in this community?"
               </h2>
             </Stack>
           ) : (

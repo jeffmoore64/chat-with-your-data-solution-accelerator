@@ -8,5 +8,6 @@
     "azureFunctions.projectLanguageModel": 2,
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
-    ]
+    ],
+    "azureFunctions.projectSubpath": "code\\batch"
 }
