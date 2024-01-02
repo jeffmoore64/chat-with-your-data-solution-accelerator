@@ -158,6 +158,14 @@ Click the following deployment button to create the required resources for this 
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fchat-with-your-data-solution-accelerator%2Fmain%2Finfra%2Fdeployment.json) 
 
+
+
+This should deploy my stuff:
+
+(https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fjeffmoore64%2Fchat-with-your-data-solution-accelerator%2Fblob%2Fmain%2Finfra%2Fdeployment.json) 
+
+
+
 This requires the following fields to be entered:
    
 |Field  |Description  |
