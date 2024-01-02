@@ -17,7 +17,8 @@ import rehypeRaw from "rehype-raw";
 import { v4 as uuidv4 } from "uuid";
 
 import styles from "./Chat.module.css";
-import Azure from "../../assets/Azure.svg";
+//import Azure from "../../assets/Azure.svg";
+import inovix from "../../assets/logo-black.svg";
 
 import {
   ChatMessage,
@@ -268,7 +269,7 @@ const Chat = () => {
         <div className={styles.chatContainer}>
           {!lastQuestionRef.current ? (
             <Stack className={styles.chatEmptyState}>
-              <img src={Azure} className={styles.chatIcon} aria-hidden="true" />
+              <img src={inovix} className={styles.chatIcon} aria-hidden="true" />
               <h1 className={styles.chatEmptyStateTitle}>Your HOA Document Investigator:</h1>
               <h2 className={styles.chatEmptyStateSubtitle}>
                 This chatbot is configured to answer questions from your HOA management documents. Try asking a question like "What is the maximum number of pets allowed?" or "What is the minimum age to live in this community?"
